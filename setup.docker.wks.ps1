@@ -7,4 +7,4 @@ choco install vscode
 Write-Host "Installing Docker Desktop"
 choco install docker-desktop
 Write-Host Prompting Visual Studio Code for git cloning
-Start-Process -FilePath $env:SystemRoot"\System32\cmd.exe" -ArgumentList "/c start /b code --open-url -- vscode://vscode.git/clone?url=https://azuredevops.septeo.fr/SECIB/Workshop/_git/Docker"
+Start-Process -FilePath $env:SystemRoot"\System32\cmd.exe" -ArgumentList "/c start cmd /c code --open-url -- vscode://vscode.git/clone?url=https://azuredevops.septeo.fr/SECIB/Workshop/_git/Docker"
